@@ -1,20 +1,22 @@
-.body {
+body 
+{
     display:flex;
     border:4px solid blue;
     height: 300px;
 
     background: maroon
     flex-direction: column;
-        .header {
+        header 
+        {
             border:3px solid purple
             height: 150px;
-            .logo{
+            logo{
                 margin-top: 20px;
             }
 
-    }
+    
 }
-.main{ 
+main{ 
         display:flex;
         flex-direction:row
         flex: auto;
@@ -25,5 +27,6 @@
             .aside
                 flex:1
                 overflow-y:auto
+            
             
 }
